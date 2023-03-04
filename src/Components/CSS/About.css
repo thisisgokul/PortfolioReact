@@ -1,0 +1,82 @@
+.Aboutbg {
+  margin-top: -49px;
+  padding: 0px 0 2px 0;
+  --tw-bg-opacity: 0.95;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+
+  background-position: top center;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wraper {
+  margin-top: 49px;
+  padding: 45px 0 100px 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    rgba(8, 139, 106, 0.074),
+    rgba(82, 11, 11, 0.04),
+    rgba(1, 4, 26, 0.086),
+    rgba(37, 57, 106, 0.268)
+  );
+}
+
+.aboutname {
+    font-size: 71px;
+    margin-top: -13px;
+    
+}
+.underlin{
+    position: relative;
+    display: inline-block;
+}
+.underlin::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(45, 223, 165);
+    animation: underline-loop 2s infinite ease-in-out;
+  }
+  
+  @keyframes underline-loop {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0;
+    }
+  }
+.aboutdiv{
+    margin-top: 76px;
+}
+.myname{
+    background-color: rgb(45, 223, 165);
+    font-size: 38px;
+    color: rgb(12, 12, 30);
+}
+
+.infos{
+    font-size: 26px;
+    font-weight: 280px;
+    padding: 2px;
+    margin: 7px;
+    color: rgb(191 190 203);
+}
+.resumebutton{
+    background-color:rgb(45, 223, 165) ;
+    color: rgb(12, 12, 30);
+    height: 45px;   
+    border-color: rgb(45, 223, 165);
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(17, 17, 69);
+}

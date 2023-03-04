@@ -1,0 +1,13 @@
+.footer{
+    height: 100%;
+    width: 100%;
+    --tw-bg-opacity: 0.95;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+    background-position: top center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.footerhead{
+    color:  rgba(45, 223, 164, 0.86);
+}
